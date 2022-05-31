@@ -1,0 +1,34 @@
+.navbar {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding: 2rem;
+    width: 18rem;
+    height: 100vw;
+}
+
+.active {
+    opacity: 1 !important;
+}
+
+.navbar-item {
+    cursor: pointer;
+    opacity: .7;
+    font-size: 1.75rem;
+    line-height: 5rem;
+}
+
+.navbar-item:hover {
+    opacity: 1;
+}
+
+.divider-line {
+    background-color: #282828;
+    width: 100%;
+    height: 1px;
+    min-height: 1px;
+    border: none;
+    margin-top: 2rem;
+}

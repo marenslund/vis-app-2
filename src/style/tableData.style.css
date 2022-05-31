@@ -1,0 +1,17 @@
+.table-container {
+    background-color: #121212 !important;
+    opacity: .8;
+    width: 70vw !important;
+    margin: 0 auto auto;
+}
+
+.table-cell {
+    color: white !important;
+    font-size: 1.5rem !important;
+    opacity: .7;
+}
+
+.table-cell-header {
+    color: white !important;
+    font-size: 1.5rem !important;
+}

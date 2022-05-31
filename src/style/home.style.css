@@ -1,0 +1,43 @@
+body {
+    /*background-image: linear-gradient(#432312, #121212);*/
+    /*background-repeat: no-repeat;*/
+    background-color: #121212 !important;
+    height: 20vw;
+}
+
+.gradient {
+    background-color: rgb(104, 0, 32);
+    background-image: linear-gradient(rgba(0,0,0,.6) 0,#121212 100%);
+    min-height: 15rem;
+    margin-top: -50px;
+    z-index: -1;
+    margin-left: 288px;
+}
+
+.container {
+    padding: 1rem;
+    margin-left: 288px;
+}
+
+.header-1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 3rem;
+}
+
+.header-2 {
+    max-width: 50vw;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    opacity: .8;
+}
+
+.button-container {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 2rem;
+}
